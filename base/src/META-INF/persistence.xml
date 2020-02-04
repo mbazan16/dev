@@ -5,7 +5,7 @@
 		<class>com.jpa.entities.Departments</class>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@W-PORSCHE:1521:xe"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
 			<property name="javax.persistence.jdbc.user" value="HR"/>
 			<property name="javax.persistence.jdbc.password" value="hr"/>
 			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
