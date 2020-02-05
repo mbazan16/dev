@@ -10,7 +10,7 @@ public class App {
 	public static void main(String[] args) {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("HR");
 		EntityManager em = emf.createEntityManager();
-		em.getTransaction().begin();
+		
 		Departments department = DepartmentService.encontrarDepartment(em,10L);
 		System.out.println(department);
 		System.out.println("he cambiado el programa");
