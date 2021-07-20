@@ -4,8 +4,8 @@ import javax.persistence.Persistence;
 
 import org.apache.log4j.Logger;
 
-public class Programa {
-	static Logger log = Logger.getLogger(Programa.class.getName());
+public class Test {
+	static Logger log = Logger.getLogger(Test.class.getName());
 	public static void main(String[] args) {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("TutorialJPA");
 		EntityManager em = emf.createEntityManager();
